@@ -52,8 +52,18 @@ header {
 
 /* dev-martin*/
 
+/* about-us */
 
-/* dev-miguel*/
+.container-avatar {
+    width: 70%;;
+}
+
+.container-about-us {
+    background-color: rgba(56, 47, 47, 0.322);
+}
+
+
+/* form*/
 
 .container-img{
     width: 100%;
@@ -69,7 +79,7 @@ header {
     border-radius: 10px;    
 }
 
-/* dev-miguel*/
+/* form*/
 
 
 /* FOOTER */
@@ -107,39 +117,60 @@ footer img {
 }
 
 @media screen and (min-width: 320px) {
-    .container-links {
-        padding: 0rem 2rem;
-        gap: 2rem;
+    .links {
+        margin: 1rem 2.5rem;
     }
 
     .miguel {
-        padding-left: 1.1rem;
+        padding-left: .5rem;
     }
 
     .daniela {
-        padding-left: .8rem;
+        padding-left: 0rem;
+    }
+
+    .franco {
+        padding-right: 1.2rem;
+    }
+
+    .martin {
+        padding-right: 1.2rem;
     }
 }
 
-@media screen and (min-width: 412px) {
-    .container-links {
-        gap: 3.5rem;
-    }
-    
-    .miguel {
-        padding-left: 1.3rem;
-    }
-
-    .daniela {
-        padding-left: 1rem;
+@media screen and (min-width: 638px) {
+    .links {
+        margin: 1rem 3.5rem;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .container-links {
-        gap: 5.2rem;
+    .links {
+        margin: 1rem 4.2rem;
     }
-    
+
+    .miguel {
+        padding-left: .4rem;
+    }
+
+    .daniela {
+        padding-left: 0rem;
+    }
+
+    .franco {
+        padding-left: 0rem;
+    }
+
+    .martin {
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .links {
+        margin: 0rem;
+    }
+
     .miguel {
         padding-left: 0rem;
     }
@@ -147,10 +178,14 @@ footer img {
     .daniela {
         padding-left: 0rem;
     }
-}
 
-@media screen and (min-width: 1024px) {
-    .container-links {
-        gap: 2rem;
+    .franco {
+        padding-left: 0rem;
+    }
+
+    .martin {
+        padding-right: 0rem;
     }
 }
+
+
