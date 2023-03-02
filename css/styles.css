@@ -52,8 +52,18 @@ header {
 
 /* dev-martin*/
 
+/* about-us */
 
-/* dev-miguel*/
+.container-avatar {
+    width: 70%;;
+}
+
+.container-about-us {
+    background-color: rgba(56, 47, 47, 0.322);
+}
+
+
+/* form*/
 
 .container-img{
     width: 100%;
@@ -69,7 +79,7 @@ header {
     border-radius: 10px;    
 }
 
-/* dev-miguel*/
+/* form*/
 
 
 /* FOOTER */
@@ -177,3 +187,5 @@ footer img {
         padding-right: 0rem;
     }
 }
+
+
