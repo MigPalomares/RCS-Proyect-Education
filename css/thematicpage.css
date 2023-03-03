@@ -76,7 +76,13 @@
     }
 
     .second-section {
-        padding: 0rem 1.2rem;
+        padding: 0.5rem 1.2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .second-section {
+        padding: 0.5rem 2rem;
     }
 }
 
@@ -85,10 +91,11 @@
         flex-direction: row;
         justify-content: space-around;
         padding: 0rem 3.5rem;
+        
     }
 
     .title-link h1 {
-        font-size: 2.6rem;
+        font-size: 2.3rem;
         margin-bottom: 3rem;
     }
 
@@ -100,21 +107,40 @@
         margin-right: 6rem;
     }
 
+    .images .man {
+        margin-top: -4rem;
+    }
+
     .images {
         margin-top: 3.5rem;
     }
 
     .images img {
         width: 20rem;
-        margin-left: 2rem;
     }
 
     .second-section {
-        padding: 2rem 3.5rem;
+        padding: 1rem 3.5rem;
     }
 }
 
 @media screen and (min-width: 1300px) {
+    .first-section {
+        margin-bottom: -2rem;
+    }
+    
+    .title-link {
+        margin-left: 2rem;
+    }
+    
+    .title-link h1 {
+        font-size: 2.8rem;
+    }
+
+    .title-link a {
+        padding: .8rem 1rem;
+    }
+    
     .title-link h1 {
         font-size: 3rem;
     }
@@ -122,6 +148,10 @@
     .images img {
         width: 27rem;
         margin-left: 5.5rem;
+    }
+
+    .second-section {
+        padding: 6rem 3rem;
     }
 }
 
@@ -170,7 +200,7 @@
     .third-section {
         padding: 0rem 1.2rem;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
     }
 
     .developer-item  {
@@ -184,13 +214,40 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .developer-item  {
+        flex-wrap: wrap;
+        margin-left: 3.5rem;
+    }
+   
+    .developer-item figure {
+        margin: 1.5rem 1rem;
+    }
+
     .developer-item img {
-        width: 100px;
+        width: 64px;
+    }
+
+    .video-container {
+        width: 55%;
+        margin-right: 2rem;
+        margin-top: 3rem;
+    }
+    
+    .video {
+        display: initial;
+        width: 100%;
+        border-radius: .3rem;
     }
 }
 
-@media screen and (min-width: 1024px) {
-    .developer-item img {
-        width: 115px;
+@media screen and (min-width: 1300px) {
+    .developer-item  {
+        margin-left: 8rem;
+    }
+
+    .video-container {
+        width: 48%;
+        margin-right: 4rem;
+        margin-top: .5rem;
     }
 }
