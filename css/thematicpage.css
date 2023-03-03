@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* SECCION "CONSTRUYE TU FUTURO" */
+
+.first-section {
+    background-color: #080808;
+    color: #e6e6e6;
+}
+
+.title-link span {
+    color: #ff6200;
+}
+
+.title-link a {
+    background-color: #ff6200;
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    text-decoration: none;
+}
+
+.title-link a:hover {
+    cursor: pointer;
+}
+
+.second-section {
+    background-color: #080808;
+    color: #e6e6e6;
+    text-align: center;
+}
+
+.second-section h2 {
+    color: #ff6200;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 320px) {
+    .first-section {
+        display: flex;
+        flex-direction: column;
+        padding: 0rem 1.2rem;
+        align-items: center;
+    }
+
+    .title-link h1 {
+        font-size: 2.2rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+    
+    .images {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    
+    .images img {
+        width: 15rem;
+        border-radius: .3rem;
+    }
+
+    .images .women {
+        margin-right: 4rem;
+    }
+
+    .images .man {
+        margin-top: -3rem;
+        margin-left: 4rem;
+    }
+
+    .second-section {
+        padding: 0rem 1.2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .first-section {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0rem 3.5rem;
+    }
+
+    .title-link h1 {
+        font-size: 2.6rem;
+        margin-bottom: 3rem;
+    }
+
+    .title-link a {
+        padding: .8rem 1rem;
+    }
+
+    .images figure .women{
+        margin-right: 6rem;
+    }
+
+    .images {
+        margin-top: 3.5rem;
+    }
+
+    .images img {
+        width: 20rem;
+        margin-left: 2rem;
+    }
+
+    .second-section {
+        padding: 2rem 3.5rem;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .title-link h1 {
+        font-size: 3rem;
+    }
+
+    .images img {
+        width: 27rem;
+        margin-left: 5.5rem;
+    }
+}
+
+/* SECCION "TE PREPARAMOS PARA" */
+
+.third-section {
+    color: #e6e6e6;
+    background-color: #080808;
+}
+
+.third-section h2 {
+    color: #ff6200;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 320px) {
+    .third-section h2 {
+        text-align: center;
+    }
+
+    .developer-item  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .developer-item figure {
+        margin: 1.2rem 0rem;
+        text-align: center;
+    }
+
+    .developer-item img {
+        width: 80px;
+    }
+
+    .developer-item figcaption {
+        margin-top: 1rem;
+    }
+
+    .video {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .third-section {
+        padding: 0rem 1.2rem;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .developer-item  {
+        flex-direction: row;
+    }
+
+    .developer-item figure {
+        margin: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .developer-item img {
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .developer-item img {
+        width: 115px;
+    }
+}
