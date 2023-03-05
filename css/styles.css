@@ -8,12 +8,84 @@
 /* dev-martin*/
 
 header {
-    background-color: #080808;
+    /* background-color: #080808; */
     height: 12vh;
     color: #e6e6e6;
 }
 
-.cont-logo {
+.navbar {
+    background-color: #080808;
+    height: 12vh;
+    padding-inline: 75px;
+}
+
+.logo {
+    width: 12%;
+    border-radius: 50px;
+}
+
+.navbar a {
+    color: #e6e6e6;
+}
+
+.nav-item {
+    margin-inline: 20px;
+}
+
+.nav-item a:hover {
+    color: white;
+}
+
+.nav-item a:active {
+    color: #e6e6e66f;
+}
+
+.nav-link {
+    color: #e6e6e6;
+}
+
+.nav-link:focus {
+    color: #e6e6e66f;
+}
+
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.navbar-toggler {
+    background-color: #e6e6e6;
+}
+
+.btn {
+    background-color: #f26106;
+    color: #e6e6e6;
+    padding-inline: 8px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    border: solid 1px white;
+    background-color: #f68138;
+    color: white;
+}
+
+section[id] {
+    scroll-margin-top: 80px;
+}
+
+/* NAV VIEJA S/B*/
+
+/* .cont-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    padding-right: 60px;
+} */
+
+/* .cont-logo {
     padding-left: 60px;
 }
 
@@ -26,7 +98,16 @@ header {
     display: flex;
     justify-content: space-between;
     line-height: 12vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #080808;
+    z-index: 100;
+}
 
+.cont-links div {
+    padding-inline: 15px;
 }
 
 .cont-links {
@@ -41,6 +122,16 @@ header {
     color: #e6e6e6;
 }
 
+.link-nav:hover {
+    color: #f26106;
+    transform: scale(1.0);
+    transition: 0.3s;
+} 
+
+.link-nav:active {
+    color: #f0a94d;
+}
+
 .link-nav-buttom {
     text-decoration: none;
     color: white;
@@ -50,10 +141,28 @@ header {
     border-radius: 6px;
 }
 
+.link-nav-buttom:hover {
+    border: solid 1px white;
+} */
+
+/* NAV VIEJA S/B*/
+
+
+
 /* dev-martin*/
 
+/* about-us */
 
-/* dev-miguel*/
+.container-avatar {
+    width: 70%;;
+}
+
+.container-about-us {
+    background-color: #080808;
+}
+
+
+/* form*/
 
 .container-img{
     width: 100%;
@@ -69,7 +178,7 @@ header {
     border-radius: 10px;    
 }
 
-/* dev-miguel*/
+/* form*/
 
 
 /* FOOTER */
@@ -107,39 +216,60 @@ footer img {
 }
 
 @media screen and (min-width: 320px) {
-    .container-links {
-        padding: 0rem 2rem;
-        gap: 2rem;
+    .links {
+        margin: 1rem 2.5rem;
     }
 
     .miguel {
-        padding-left: 1.1rem;
+        padding-left: .5rem;
     }
 
     .daniela {
-        padding-left: .8rem;
+        padding-left: 0rem;
+    }
+
+    .franco {
+        padding-right: 1.2rem;
+    }
+
+    .martin {
+        padding-right: 1.2rem;
     }
 }
 
-@media screen and (min-width: 412px) {
-    .container-links {
-        gap: 3.5rem;
-    }
-    
-    .miguel {
-        padding-left: 1.3rem;
-    }
-
-    .daniela {
-        padding-left: 1rem;
+@media screen and (min-width: 638px) {
+    .links {
+        margin: 1rem 3.5rem;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .container-links {
-        gap: 5.2rem;
+    .links {
+        margin: 1rem 4.2rem;
     }
-    
+
+    .miguel {
+        padding-left: .4rem;
+    }
+
+    .daniela {
+        padding-left: 0rem;
+    }
+
+    .franco {
+        padding-left: 0rem;
+    }
+
+    .martin {
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .links {
+        margin: 0rem;
+    }
+
     .miguel {
         padding-left: 0rem;
     }
@@ -147,10 +277,14 @@ footer img {
     .daniela {
         padding-left: 0rem;
     }
-}
 
-@media screen and (min-width: 1024px) {
-    .container-links {
-        gap: 2rem;
+    .franco {
+        padding-left: 0rem;
+    }
+
+    .martin {
+        padding-right: 0rem;
     }
 }
+
+
