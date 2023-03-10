@@ -285,7 +285,6 @@
 
 .cont-text-teachers {
     width: 50%;
-    /* text-align: center; */
     padding-left: 10%;
     padding-top: 5%;
 }
@@ -301,14 +300,11 @@
 }
 
 .link-teachers {
-    /* padding-top: 5rem; */
     color: #e6e6e6;
     background-color: #ff6200;
     text-decoration: none;
-    /* padding: .5rem 1rem; */
     padding: 0.8rem 1rem;
     border-radius: 0.3rem;
-    /* padding: 0.4rem; */
     
 }
 
