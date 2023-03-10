@@ -11,12 +11,14 @@ header {
     /* background-color: #080808; */
     height: 12vh;
     color: #e6e6e6;
+    width: 100%;
 }
 
 .navbar {
     background-color: #080808;
     height: 12vh;
     padding-inline: 75px;
+    width: 100%;
 }
 
 .logo {
@@ -29,7 +31,7 @@ header {
 }
 
 .nav-item {
-    margin-inline: 20px;
+    margin-inline: 13px;
 }
 
 .nav-item a:hover {
@@ -58,7 +60,7 @@ header {
     background-color: #e6e6e6;
 }
 
-.btn {
+.btn-navbar {
     background-color: #f26106;
     color: #e6e6e6;
     padding-inline: 8px;
@@ -66,11 +68,20 @@ header {
     letter-spacing: 1px;
 }
 
-.btn:hover {
+.btn-navbar:hover {
     border: solid 1px white;
     background-color: #f68138;
     color: white;
 }
+
+@media (max-width: 992px) {
+    .collapse {
+        background: #4950577a;
+        margin-right: 75%;
+    }
+}
+
+
 
 section[id] {
     scroll-margin-top: 80px;
