@@ -297,6 +297,7 @@
 
 .p-teachers {
     color: #e6e6e6;
+    padding-block: 1.5rem;
 }
 
 .link-teachers {
@@ -304,14 +305,15 @@
     color: #e6e6e6;
     background-color: #ff6200;
     text-decoration: none;
+    /* padding: .5rem 1rem; */
+    padding: 0.8rem 1rem;
     border-radius: 0.3rem;
-    padding: 0.4rem;
+    /* padding: 0.4rem; */
+    
 }
 
 .link-teachers:hover {
-    border: solid 1px white;
-    background-color: #f68138;
-    color: white;
+    cursor: pointer;
 }
 
 /* SECCION "NUESTROS ALUMNOS" */
