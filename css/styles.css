@@ -152,6 +152,11 @@ section[id] {
 /* dev-martin*/
 
 /* about-us */
+.container-title{
+    background: #fafafa;
+    color: #ff6200;
+    font-weight: 600;
+}
 
 .container-avatar {
     width: 70%;;
