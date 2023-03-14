@@ -177,6 +177,12 @@ section[id] {
     background-color: #080808;
 }
 
+.container-card:hover {
+    transform: scale(1.005);
+   border: 0.1rem solid rgb(99, 98, 98);
+   box-shadow: 0 0 12px 2px rgb(99, 98, 98);
+}
+
 
 /* form*/
 
