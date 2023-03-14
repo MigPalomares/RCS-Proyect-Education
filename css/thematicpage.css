@@ -262,7 +262,55 @@
 
 /* SECCION "LOS MEJORES PROFESORES */
 
+.teachers {
+    background-color: #080808;
+}
 
+.cont-teachers {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 75px;
+    padding-top: 65px;
+}
+
+.cont-img-teachers {
+    width: 50%;
+    text-align: center;
+}
+
+.img-teachers {
+    width: 98%;
+    border-radius: 0.3rem;
+}
+
+.cont-text-teachers {
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.h2-teachers {
+    color: #ff6200;
+    font-weight: 600;
+}
+
+.p-teachers {
+    color: #e6e6e6;
+    padding-block: 1.5rem;
+}
+
+.link-teachers {
+    color: #e6e6e6;
+    background-color: #ff6200;
+    text-decoration: none;
+    padding: 0.8rem 1rem;
+    border-radius: 0.3rem;
+    
+}
+
+.link-teachers:hover {
+    cursor: pointer;
+}
 
 /* SECCION "NUESTROS ALUMNOS" */
 
