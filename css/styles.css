@@ -221,6 +221,10 @@ footer img {
     margin-right: .8rem;
 }
 
+.links p {
+    border-bottom:  0.1rem solid #f26106;
+}
+
 .links a {
     text-decoration: none;
     color: #e6e6e6;
