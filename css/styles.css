@@ -10,7 +10,7 @@
 header {
     /* background-color: #080808; */
     height: 12vh;
-    color: #e6e6e6;
+    /* color: #e6e6e6; */
     width: 100%;
 }
 
@@ -22,7 +22,7 @@ header {
 }
 
 .logo {
-    width: 12%;
+    width: 60px;
     border-radius: 50px;
 }
 
@@ -81,84 +81,65 @@ header {
     }
 }
 
+@media (max-width: 912px) {
+    .header {
+        height: 10vh;
+    }
 
+    .logo {
+        width: 70px;
+    }    
+}
+
+@media (max-width: 769px) {
+    .logo {
+        width: 70px;
+    }
+}
+
+@media (max-width: 540px) {
+    .logo {
+        width: 61px;
+    }
+}
+
+@media (max-width: 445px) {
+    .navbar {
+        padding-inline: 48px;
+    }
+}
+
+@media (max-width: 393px) {
+    .logo {
+        width: 60px;
+    }
+} 
+
+@media (max-width: 375px) {
+    .logo {
+        width: 53px;
+    }
+}
+
+@media (max-width: 360px) {
+    .header {
+        height: 11vh;
+    }
+    
+    .logo {
+        width: 55px;
+    }
+}
+
+@media (max-width: 281px) {
+    .logo {
+        width: 58px;
+    }
+}
 
 section[id] {
     scroll-margin-top: 80px;
 }
-
-/* NAV VIEJA S/B*/
-
-/* .cont-links {
-    display: flex;
-    justify-content: space-around;
-    width: 50%;
-    padding-right: 60px;
-} */
-
-/* .cont-logo {
-    padding-left: 60px;
-}
-
-.logo {
-    width: 12%;
-    border-radius: 50px;
-}
-
-.cont-nav {
-    display: flex;
-    justify-content: space-between;
-    line-height: 12vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #080808;
-    z-index: 100;
-}
-
-.cont-links div {
-    padding-inline: 15px;
-}
-
-.cont-links {
-    display: flex;
-    justify-content: space-around;
-    width: 50%;
-    padding-right: 60px;
-}
-
-.link-nav {
-    text-decoration: none;
-    color: #e6e6e6;
-}
-
-.link-nav:hover {
-    color: #f26106;
-    transform: scale(1.0);
-    transition: 0.3s;
-} 
-
-.link-nav:active {
-    color: #f0a94d;
-}
-
-.link-nav-buttom {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    background-color: #f26106;
-    padding: 10px;
-    border-radius: 6px;
-}
-
-.link-nav-buttom:hover {
-    border: solid 1px white;
-} */
-
-/* NAV VIEJA S/B*/
-
-
 
 /* dev-martin*/
 
@@ -225,6 +206,10 @@ footer {
 footer img {
     width: 1.3rem;
     margin-right: .8rem;
+}
+
+.links p {
+    border-bottom:  0.1rem solid #f26106;
 }
 
 .links a {
