@@ -183,6 +183,13 @@ section[id] {
    box-shadow: 0 0 12px 2px rgb(99, 98, 98);
 }
 
+/*@media screen and (: 320px) {
+    .third-section h2 {
+        text-align: center;
+    }
+
+}
+
 
 /* form*/
 
@@ -220,6 +227,10 @@ footer {
 .links {
     display: flex;
     flex-direction: column;
+}
+
+.container-links p {
+    border-bottom:  0.1rem solid #f26106;
 }
 
 footer img {

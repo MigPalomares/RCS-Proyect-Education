@@ -184,7 +184,7 @@
     }
 
     .developer-item img {
-        width: 80px;
+        width: 4rem;
     }
 
     .developer-item figcaption {
@@ -266,37 +266,18 @@
     background-color: #080808;
 }
 
-.cont-teachers {
-    display: flex;
-    justify-content: space-between;
-    padding-inline: 75px;
-    padding-top: 65px;
-}
-
-.cont-img-teachers {
-    width: 50%;
-    text-align: center;
-}
-
-.img-teachers {
-    width: 98%;
-    border-radius: 0.3rem;
-}
-
-.cont-text-teachers {
-    width: 50%;
-    padding-left: 10%;
-    padding-top: 5%;
-}
-
 .h2-teachers {
     color: #ff6200;
     font-weight: 600;
 }
 
+.img-teachers {
+    width: 40%;
+    border-radius: 0.3rem;
+}
+
 .p-teachers {
     color: #e6e6e6;
-    padding-block: 1.5rem;
 }
 
 .link-teachers {
@@ -305,12 +286,73 @@
     text-decoration: none;
     padding: 0.8rem 1rem;
     border-radius: 0.3rem;
-    
 }
 
 .link-teachers:hover {
     cursor: pointer;
 }
+
+@media screen and  (min-width: 320px) {
+    .teachers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .cont-text-teachers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 1.2rem;
+    }
+
+    .p-teachers {
+        text-align: center;
+        padding-top: .5rem;
+    }
+    
+    .img-teachers {
+        width: 18rem;
+    }
+}
+
+@media screen and  (min-width: 1024px) {
+    .teachers {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-bottom: 5rem;
+    }
+
+    .cont-img-teachers {
+        width: 40%;
+        margin-left: 2rem;
+    }
+
+    .img-teachers {
+        width: 100%;
+    }
+
+    .cont-text-teachers {
+        width: 43%;
+        align-items: start;
+    }
+
+    .p-teachers {
+        text-align: start;
+    }
+}
+
+@media screen and  (min-width: 1300px) {
+    .teachers {
+        padding-top: 6rem;
+        padding-bottom: 2rem;
+    }
+}
+
 
 /* SECCION "NUESTROS ALUMNOS" */
 
@@ -328,6 +370,10 @@
     margin: 1rem 2.5rem;
     background-color: #080808;
     transition: .3s;
+}
+
+.card img {
+    border-radius: .3rem;
 }
 
 .card:hover {
