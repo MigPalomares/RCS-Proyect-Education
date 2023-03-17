@@ -1,0 +1,22 @@
+/* our courses */
+.container-main{
+    background-color: #fafafa ;
+}
+
+.card-body {
+    border: 5px;
+}
+
+.card-img-top {
+    font-size: 170px;
+}
+
+.container-icono {
+    width: 65%;
+}
+
+.container-courses div:hover {
+    background-color: black;
+}
+
+/* our courses */

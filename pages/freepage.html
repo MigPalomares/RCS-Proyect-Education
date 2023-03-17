@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--icon-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- GOOGLE FONT -->
@@ -12,13 +14,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <!-- CSS -->
     <link href="../css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/freepage.css">
     <!-- FAVICON -->
     <link rel="shortcut icon" href="../img/logo.jpeg" type="image/x-icon">
     <title>Cursos</title>
 </head>
 <body>
     <header>
-
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="../index.html">
@@ -39,44 +41,124 @@
                     <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../pages/thematicpage.html">Educando para el futuro</a>
+                    <a class="nav-link" href="../pages/thematicpage.html">Nosotros</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Cursos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="btn" href="#form" type="submit">CONTACTANOS</a>
+                    <a class="btn btn-navbar" href="../pages/thematicpage.html#form" type="submit">CONTACTANOS</a>
                   </li>  
                 </ul>
               </div>
             </div>
           </nav>           
-
-
-        <!-- <nav class="cont-nav">
-            <div class="cont-logo">
-                <a href="../index.html"><img class="logo" src="../img/logo.jpeg"></a>
-            </div>
-            <div class="cont-links">
-                <div>
-                    <a class="link-nav" href="../index.html">Inicio</a>
-                </div>
-                <div>
-                    <a class="link-nav" href="../pages/thematicpage.html">Educando para el futuro</a>
-                </div>
-                <div>
-                    <a class="link-nav" href="../pages/freepage.html">Cursos</a>
-                </div>
-                <div>
-                    <a class="link-nav-buttom" href="#">CONTACTANOS</a>
-                </div>
-            </div>
-        </nav> -->
     </header>
-    <main>
-        <h1>
-            freepage
-        </h1>
+    <main class="container-main">
+        <section class="text-center">
+            <h1>Nuestros Cursos</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+        </section>
+        <h2 class="text-center">¡Descubre nuestros cursos hoy mismo y prepárate para el futuro!</h2>
+        <section class="container">
+            <section class="container container-courses col-12 row d-flex justify-content-around">
+                <div class="card col-3 m-1">
+                    <i class="fab fa-angular card-img-top mt-4"></i>
+                    <div class="card-body">
+                        <p class="card-text text-center fs-3">Angular</p>
+                    </div>
+                </div>
+                <div class=" card col-3 m-1 ">
+                    <!--<i class="fab fa-cplus card-img-top mt-4"></i>-->
+                    <img class="container-icono mx-auto" src="../img/c-sharp.png">
+                    <div class="card-body">
+                        <p class="card-text text-center fs-3">C#</p>
+                    </div>
+                </div>
+                <div class="card col-3 m-1">
+                    <i class="fab fa-git card-img-top mt-4"></i>
+                    <div class="card-body">
+                        <p class="card-text text-center fs-3">Git</p>
+                    </div>
+                </div>
+                <div class="card col-3 m-1">
+                    <i class="fab fa-html5 card-img-top mt-4"></i>
+                    <div class="card-body">
+                        <p class="card-text text-center fs-3">HTML</p>
+                    </div>
+                </div>
+                <div class="card col-3 m-1">
+                    <i class="fab fa-java card-img-top mt-4"></i>
+                    <div class="card-body">
+                        <p class="card-text text-center fs-3">Java</p>
+                    </div>
+                </div>
+                <div class="card col-3 m-1">
+                    <i class="fab fa-js card-img-top mt-4"></i>
+                    <div class="card-body">
+                        <p class="card-text text-center fs-3">JavaScript</p>
+                    </div>
+                </div>
+                <div class="card col-3 m-1">
+                    <i class="fab fa-laravel card-img-top mt-4"></i>
+                    <div class="card-body">
+                        <p class="card-text text-center fs-3">Laravel</p>
+                    </div>
+                </div>
+                <div class="card col-3 m-1">
+                    <i class="fab fa-node card-img-top mt-4"></i>
+                    <div class="card-body">
+                        <p class="card-text text-center fs-3">Node</p>
+                    </div>
+                </div><div class="card col-3 m-1">
+                    <i class="fab fa-php card-img-top mt-4"></i>
+                    <div class="card-body">
+                        <p class="card-text text-center fs-3">PHP</p>
+                    </div>
+                </div>
+                <div class="card col-3 m-1">
+                    <i class="fab fa-python card-img-top mt-4"></i>
+                    <div class="card-body">
+                        <p class="card-text text-center fs-3">Python</p>
+                    </div>
+                </div>
+                <div class="card col-3 m-1">
+                    <i class="fab fa-react card-img-top mt-4"></i>
+                    <div class="card-body">
+                        <p class="card-text text-center fs-3">ReactJS</p>
+                    </div>
+                </div>
+                <div class="card col-3 m-1">
+                    <!--<i class="fab fa-java card-img-top mt-4"></i> -->
+                    <img class="container-icono mx-auto" src="../img/ruby.webp">
+                    <div class="card-body">
+                        <p class="card-text text-center fs-3">Ruby</p>
+                    </div>
+                </div>
+                <div class="card col-3 m-1">
+                    <!--<i class="fab fa-spring card-img-top mt-4"></i>-->
+                    <img class="container-icono mx-auto" src="../img/spring.png">
+                    <div class="card-body">
+                        <p class="card-text text-center fs-3">Spring</p>
+                    </div>
+                </div>
+                <div class="card col-3 m-1">
+                    <!--<i class="fab fa-coins card-img-top mt-4"></i>-->
+                    <img class="container-icono mx-auto"src="../img/sql.jpg">
+                    <div class="card-body">
+                        <p class="card-text text-center fs-3">SQL</p>
+                    </div>
+                </div>
+                <div class="card col-3 m-1">
+                    <!--<i class="fab fa-ts card-img-top mt-4"></i>-->
+                    <img class="container-icono mx-auto" src="../img/typescript.png">
+                    <div class="card-body">
+                        <p class="card-text text-center fs-3">TypeScript</p>
+                    </div>
+                </div>
+            </section>
+        </section> 
 
     </main>
     <footer class="d-flex flex-column pt-3 ">
