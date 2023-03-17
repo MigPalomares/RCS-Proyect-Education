@@ -207,18 +207,20 @@ section[id] {
     border-radius: 10px;    
 }
 
-/* form*
+/* form*/
 
 /* dev Daniela donde  encontrarnos */
 .donde-encontrarnos {
     background-color: #080808;
     color: #e6e6e6;
+    padding: 120px;
     
 
 }
 .donde-encontrarnos h2{
     color: #f26106;
     font-weight: bold;
+    
 }
 
 /* FOOTER */
