@@ -228,7 +228,7 @@ section[id] {
     .donde-encontrarnos{
         display: flex;
         flex-direction: column;
-        padding: 3.5rem;
+        padding: 1.5rem;
         align-items: center;
         }
       
