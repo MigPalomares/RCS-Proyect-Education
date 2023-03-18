@@ -223,7 +223,7 @@ section[id] {
     font-weight: bold;
 }
 
-@media screen and (min-width:400px) {
+@media screen and (min-width:300px) {
     .donde-encontrarnos{
         display: flex;
         flex-direction: column;
