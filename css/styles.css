@@ -221,6 +221,7 @@ section[id] {
 .donde-encontrarnos h2{
     color: #f26106;
     font-weight: bold;
+    align-items: center;
 }
 
 @media screen and (min-width:300px) {
@@ -228,6 +229,7 @@ section[id] {
         display: flex;
         flex-direction: column;
         padding: 3.5rem;
+        align-items: center;
         }
       
     
