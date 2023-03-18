@@ -227,11 +227,9 @@ section[id] {
     .donde-encontrarnos{
         display: flex;
         flex-direction: column;
+        padding: 3.5rem;
         }
-     iframe{
-        flex-direction: column;
-        width: 250px;
-     }   
+      
     
 }
 
