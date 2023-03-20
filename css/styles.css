@@ -169,6 +169,10 @@ section[id] {
     font-weight: 600;
 }
 
+/* Sobre Rolling - Daniela Gonzalez */
+
+
+
 .container-avatar {
     width: 70%;;
 }
@@ -276,17 +280,25 @@ section[id] {
 /* form*/
 
 /* dev Daniela donde  encontrarnos */
+<<<<<<< HEAD
 
 .donde-encontrarnos {
     background-color: #080808;
     color: #e6e6e6;
     padding: 10rem;
+=======
+.donde-encontrarnos {
+    background-color: #080808;
+    color: #e6e6e6;
+    padding: 120px;
+>>>>>>> 792e35f856a5c6a53e102334e723dbc1b69b5835
     
 
 }
 .donde-encontrarnos h2{
     color: #f26106;
     font-weight: bold;
+<<<<<<< HEAD
     align-items: center;
 }
 
@@ -298,6 +310,8 @@ section[id] {
         align-items: center;
         }
       
+=======
+>>>>>>> 792e35f856a5c6a53e102334e723dbc1b69b5835
     
 }
 
