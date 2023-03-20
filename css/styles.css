@@ -280,38 +280,16 @@ section[id] {
 /* form*/
 
 /* dev Daniela donde  encontrarnos */
-<<<<<<< HEAD
-
-.donde-encontrarnos {
-    background-color: #080808;
-    color: #e6e6e6;
-    padding: 10rem;
-=======
 .donde-encontrarnos {
     background-color: #080808;
     color: #e6e6e6;
     padding: 120px;
->>>>>>> 792e35f856a5c6a53e102334e723dbc1b69b5835
     
 
 }
 .donde-encontrarnos h2{
     color: #f26106;
     font-weight: bold;
-<<<<<<< HEAD
-    align-items: center;
-}
-
-@media screen and (min-width:300px) {
-    .donde-encontrarnos{
-        display: flex;
-        flex-direction: column;
-        padding: 1.5rem;
-        align-items: center;
-        }
-      
-=======
->>>>>>> 792e35f856a5c6a53e102334e723dbc1b69b5835
     
 }
 
