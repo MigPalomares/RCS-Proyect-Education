@@ -21,7 +21,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg fixed-top"">
             <div class="container">
                 <a class="navbar-brand" href="#">
                   <img class="logo" src="./img/logo.jpeg" alt="Proyecto Educación">
@@ -54,19 +54,18 @@
             </div>
           </nav>
     </header>
-
     <main>
         <section class="first-section">
             <div class="title-link">
                 <h1><span>Construye tu futuro</span>, aprende a programar hoy con el bootcamp de programación lider</h1>
-                <a href="../pages/freepage.html" target="_blank">Ver Cursos</a>
+                <a href="./pages/freepage.html">Ver Cursos</a>
             </div>
             <div class="images">
                 <figure>
-                    <img class="women" src="../img/dev-2.jpg " alt="persona sosteniendo una laptop">
+                    <img class="women" src="./img/dev-2.jpg " alt="persona sosteniendo una laptop">
                 </figure>
                 <figure>
-                    <img class="man" src="../img/dev-1.jpg" alt="mujer joven mirando a una laptop">
+                    <img class="man" src="./img/dev-1.jpg" alt="mujer joven mirando a una laptop">
                 </figure>
             </div>
         </section>
@@ -79,40 +78,82 @@
                 <h2>Te preparamos para:</h2>
                 <div class="developer-item">
                     <figure class="fullstack">
-                        <img src="../img/fullstack.png" alt="logo de fullstack developer ">
+                        <img src="./img/fullstack.png" alt="logo de fullstack developer ">
                         <figcaption>FullStack Developer</figcaption>
                     </figure>
                     <figure class="front">
-                        <img src="../img/frontend.png" alt="logo de frontent developer ">
+                        <img src="./img/frontend.png" alt="logo de frontent developer ">
                         <figcaption>Front-End Developer</figcaption>
                     </figure>
                     <figure class="back">
-                        <img src="../img/backend.png" alt="logo de back end developer ">
+                        <img src="./img/backend.png" alt="logo de back end developer ">
                         <figcaption>Back-End Developer</figcaption>
                     </figure>
                 </div>
             </div>
             <div class="video-container">
-                <video class="video" src="../video/code-video.mp4" autoplay loop muted></video>
+                <video class="video" src="./video/code-video.mp4" autoplay loop muted></video>
             </div>
         </section>
         <section class="teachers">
-            <div class="cont-teachers">
-                <div class="cont-img-teachers">
-                    <img class="img-teachers" src="../img/grupo-jovenes-empresarios-que-trabajan-oficina.jpg">
+            <div class="cont-img-teachers">
+                <img class="img-teachers" src="./img/grupo-jovenes-empresarios-que-trabajan-oficina.jpg">
+            </div>
+            <div class="cont-text-teachers">
+                <h2 class="h2-teachers">Los mejores profesores</h2>
+                <p class="p-teachers">En Educando para el futuro, los profesores son apasionados por la tecnología y están comprometidos en ayudar a nuestros estudiantes a alcanzar las metas de aprendizaje</p>
+                <a class="link-teachers" href="./pages/freepage.html">Ver cursos</a>
+            </div>
+        </section>
+        <section class="container-students">
+            <h2 class="text-center">Nuestros Alumnos</h2>
+            <p class="text-center p-2">Nos cuentan sus experiencias que han tenido a lo largo del cursado</p>
+            <div class="container-card-student d-flex flex-wrap justify-content-center">
+                <div class="card" style="width: 17rem;">
+                    <img src="./img/student1.jpg" class="card-img-top" alt="joven con su laptop sonriendo a la cámara">
+                    <div class="card-body">
+                      <p class="card-text"> Antes de comenzar, no sabía nada sobre programación, pero gracias a los tutores y la comunidad de estudiantes, pude aprender habilidades valiosas en muy poco tiempo. El programa es muy bien estructurado y cada proyecto fue un desafío emocionante. Definitivamente recomendaría este bootcamp a cualquiera que esté interesado en programación.</p>
+                    </div>
                 </div>
-                <div class="cont-text-teachers">
-                    <h2 class="h2-teachers">Los mejores profesores</h2>
-                    <p class="p-teachers">En Educando para el futuro, los profesores son apasionados por la tecnología y están comprometidos en ayudar a nuestros estudiantes a alcanzar las metas de aprendizaje</p>
-                    <a class="link-teachers" href="../pages/freepage.html" target="_blank">Ver cursos</a>
+                <div class="card" style="width: 17rem;">
+                    <img src="./img/student2.jpg" class="card-img-top" alt="hombre sonriendo sacandose una foto">
+                    <div class="card-body">
+                      <p class="card-text">El bootcamp fue una experiencia increíble. Los profesores son excelentes y se esfuerzan mucho para que entiendas los conceptos. Me gustó mucho el enfoque práctico del programa, ya que pude aplicar lo que aprendí en proyectos reales. Además, la comunidad de estudiantes era muy amigable y apoyaba a todos los miembros</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 17rem;">
+                    <img src="./img/student3.jpg" class="card-img-top" alt="mujer sonriendo sacandose una selfie">
+                    <div class="card-body">
+                      <p class="card-text">El bootcamp superó todas mis expectativas. La calidad de la enseñanza fue excelente y los profesores siempre estaban dispuestos a ayudar. Me gustó cómo los proyectos aumentaban en complejidad a medida que avanzábamos en el programa, lo que me obligó a estar siempre enfocada y motivada.</p>
+                    </div>
                 </div>
             </div>
-        </nav> -->
-        <!-- /* NAV VIEJA S/B*/ -->
-    </header>
+        </section>
+         <!--dev Daniela DONDE NOS ENCONTRAMOS-->
     
+        <section class=" donde-encontrarnos">
+            <div class="row w-100">
+                <div class="col-lg-6 my-4 d-flex align-items-center">
+                    <aside >
+                        <h2 class="">¿Dónde nos encontramos?</h2>
+                        
+                        <p>Nuestras oficinas están ubicadas en el corazón de Tucumán en Barrio Sur.</p>
+                        <br>
+                        <p>Nuestro bootcamp de programación es fácilmente accesible desde cualquier parte de la ciudad. En nuestras instalaciones recién renovadas, los estudiantes podrán aprender en un ambiente cómodo y equipado con la última tecnología, rodeados de una comunidad de compañeros apasionados y tutores expertos.</p>
+                    </aside>
+                 </div>
 
-    
+                 <div class="mapa col-lg-6 col-my-4 d-flex  ">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14240.408879082126!2d-65.2072018!3d-26.8367009!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses-419!2sar!4v1679009842345!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+
+            </div>
+        </section>
+   
+    </div>
+
+    </main>
     <footer class="d-flex flex-column pt-3 ">
         <div class="container-links ">
             <div class="links miguel">
