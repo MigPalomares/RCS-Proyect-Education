@@ -23,3 +23,19 @@
     }
 
 /* our courses */
+
+/*Daniela Seccion consultas */
+
+.help-section {
+    padding: 5.5rem;
+    background-color:orangered ;
+}
+
+@media screen and (min-width: 300px) {
+    .accordion-body {
+        display: flex;
+        flex-direction: column;
+        padding: 0rem 1.2rem;
+        align-items: center;
+    }
+     }
