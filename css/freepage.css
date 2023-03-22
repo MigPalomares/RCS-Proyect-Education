@@ -31,7 +31,7 @@
         padding: 1.8rem;
         margin: .8rem;
         border: 0.1rem solid rgb(224, 224, 224);
-        box-shadow:  0 1px 5px 2px rgb(194, 194, 194);
+        box-shadow: 0 1px 10px 4px rgb(165, 164, 164);
     }
 }
 
@@ -53,7 +53,7 @@
     }
 
     .card-course:hover {
-        transform: scale(1.1);
+        transform: translateY(-1.2rem);
         box-shadow:  0 0 10px 3px rgb(129, 129, 129);
     }
 }
