@@ -1,136 +1,155 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* dev-martin*/
 
 header {
-    background-color: #080808;
-    /* height: 12vh; */
-    padding: 2rem;
-    color: #e6e6e6;
-    /* width: 100%; */
+  background-color: #080808;
+  padding: 2rem;
+  color: #e6e6e6;
 }
-
-/* .container-fluid {
-    background-color: #080808;
-} */
 
 .logo {
-    width: 4.2rem;
-    border-radius: 8rem;
+  width: 4.2rem;
+  border-radius: 8rem;
 }
 
-
 .menu {
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
 }
 
 .menu a {
-    margin-right: 2rem;
-    color: #e6e6e6;
+  margin-right: 2rem;
+  color: #e6e6e6;
 }
 
 .nav-link {
-    color: #e6e6e6;
-    
+  color: #e6e6e6;
 }
 
 .nav-link:hover {
-    color: white;
-    border-bottom: 0.1rem solid #f26106;
-    transition: 0.3s;
+  color: white;
+  border-bottom: 0.1rem solid #f26106;
+  transition: 0.3s;
 }
 
 .navbar-nav .buttom-link {
-    color: #f26106;
+  color: #f26106;
 }
 
-.nav-link:focus, .nav-link:hover {
-    color: #e6e6e6;
+.nav-link:focus,
+.nav-link:hover {
+  color: #e6e6e6;
 }
-
-
 
 @media screen and (min-width: 320px) {
-    .logo {
-        display: none;
-    }
+  .logo {
+    display: none;
+  }
 
-    .menu a {
-        margin-right: 2.5rem;
-        padding-bottom: 1.2rem;
-    }
-    
+  .menu a {
+    margin-right: 2.5rem;
+    padding-bottom: 1.2rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .logo {
-        display: initial;
-    }
+  .logo {
+    display: initial;
+  }
 
-    .navbar {
-        margin-inline: 40px;
-    }
+  .navbar {
+    margin-inline: 40px;
+  }
 }
-
-/* section[id] {
-    scroll-margin-top: 80px;
-} */
 
 /* dev-martin*/
 
 /* about-us */
-.container-title{
-    background: #fafafa;
-    color: #ff6200;
-    font-weight: 600;
+
+.container-title {
+  background: #fafafa;
+  color: #ff6200;
+  font-weight: 600;
 }
-
-/* Sobre Rolling - Daniela Gonzalez */
-
-
-
-.container-avatar {
-    width: 70%;;
-}
-
-.container-about-us {
-    background-color: #080808;
-}
-
-.container-card:hover {
-    transform: scale(1.005);
-   border: 0.1rem solid rgb(99, 98, 98);
-   box-shadow: 0 0 12px 2px rgb(99, 98, 98);
-}
-
-/*@media screen and (: 320px) {
-    .third-section h2 {
-        text-align: center;
-    }
-
-}
-
 
 /* form*/
 
-.container-img{
-    width: 100%;
+.title-contact {
+  color: #ff6200;
+  font-weight: 600;
+  background-color: #fafafa;
 }
 
-.container-form {
-    width: 100%;
-    border: tomato;
+.container-contact {
+  background-color: #fafafa;
 }
 
-.container-dates{
-    width: 50%;
-    border-radius: 10px;    
+.container-contact form input,
+  textarea {
+    resize: none;
+    border: 0.1rem solid rgb(155, 155, 155);
+    border-radius: .5rem;
+}
+
+.container-contact form input:hover {
+    box-shadow: 0 0 5px 1px #ff6200;
+}
+
+.container-contact form textarea:hover {
+    box-shadow: 0 0 5px 1px #ff6200;
+}
+
+.container-contact form .btn-send {
+    background-color: #ff6200;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+}
+
+.container-contact form .btn-send:hover {
+    box-shadow: none;
+}
+
+@media screen and (min-width: 320px) {
+  .title-contact {
+    margin: 0rem;
+  }
+  
+  .container-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+
+  .container-contact form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-contact form input,
+  textarea {
+    padding: 0.8rem;
+    margin: 0.5rem 0rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+    .container-contact form {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container-contact form {
+        width: 60%;
+    }
 }
 
 /* form*/
@@ -138,137 +157,148 @@ header {
 /* dev Daniela donde  encontrarnos */
 
 .donde-encontrarnos {
-    background-color: #080808;
-    color: #e6e6e6;
-    padding: 10rem;
-    
-
+  background-color: #080808;
+  color: #e6e6e6;
+  padding: 10rem;
 }
-.donde-encontrarnos h2{
-    color: #f26106;
-    font-weight: bold;
+.donde-encontrarnos h2 {
+  color: #f26106;
+  font-weight: bold;
+  align-items: center;
+}
+
+@media screen and (min-width: 300px) {
+  .donde-encontrarnos {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
     align-items: center;
+  }
 }
 
-@media screen and (min-width:300px) {
-    .donde-encontrarnos{
-        display: flex;
-        flex-direction: column;
-        padding: 1.5rem;
-        align-items: center;
-        }
-      
-    
+/* About Rolling */
+
+.sobre-rolling-new {
+  background-color: #ff6200;
 }
+
+.sobre-rolling h1 {
+  background-color: #ff6200;
+  color: white;
+}
+
+.sobre-rolling h4 {
+  margin: 0rem;
+}
+
+
 
 /* FOOTER */
 
 footer {
-    background-color: #080808;
-    color: #e6e6e6;
+  background-color: #080808;
+  color: #e6e6e6;
 }
 
 .container-links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-bottom: .8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 0.8rem;
 }
 
 .links {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .container-links p {
-    border-bottom:  0.1rem solid #f26106;
+  border-bottom: 0.1rem solid #f26106;
 }
 
 footer img {
-    width: 1.3rem;
-    margin-right: .8rem;
+  width: 1.3rem;
+  margin-right: 0.8rem;
 }
 
 .links a {
-    text-decoration: none;
-    color: #e6e6e6;
-    margin-bottom: .8rem;
+  text-decoration: none;
+  color: #e6e6e6;
+  margin-bottom: 0.8rem;
 }
 
 .links a:hover {
-    color: white;
+  color: white;
 }
 
 @media screen and (min-width: 320px) {
-    .links {
-        margin: 1rem 2.5rem;
-    }
+  .links {
+    margin: 1rem 2.5rem;
+  }
 
-    .miguel {
-        padding-left: .5rem;
-    }
+  .miguel {
+    padding-left: 0.5rem;
+  }
 
-    .daniela {
-        padding-left: 0rem;
-    }
+  .daniela {
+    padding-left: 0rem;
+  }
 
-    .franco {
-        padding-right: 1.2rem;
-    }
+  .franco {
+    padding-right: 1.2rem;
+  }
 
-    .martin {
-        padding-right: 1.2rem;
-    }
+  .martin {
+    padding-right: 1.2rem;
+  }
 }
 
 @media screen and (min-width: 638px) {
-    .links {
-        margin: 1rem 3.5rem;
-    }
+  .links {
+    margin: 1rem 3.5rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .links {
-        margin: 1rem 4.2rem;
-    }
+  .links {
+    margin: 1rem 4.2rem;
+  }
 
-    .miguel {
-        padding-left: .4rem;
-    }
+  .miguel {
+    padding-left: 0.4rem;
+  }
 
-    .daniela {
-        padding-left: 0rem;
-    }
+  .daniela {
+    padding-left: 0rem;
+  }
 
-    .franco {
-        padding-left: 0rem;
-    }
+  .franco {
+    padding-left: 0rem;
+  }
 
-    .martin {
-        padding-right: 1rem;
-    }
+  .martin {
+    padding-right: 1rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .links {
-        margin: 0rem;
-    }
+  .links {
+    margin: 0rem;
+  }
 
-    .miguel {
-        padding-left: 0rem;
-    }
+  .miguel {
+    padding-left: 0rem;
+  }
 
-    .daniela {
-        padding-left: 0rem;
-    }
+  .daniela {
+    padding-left: 0rem;
+  }
 
-    .franco {
-        padding-left: 0rem;
-    }
+  .franco {
+    padding-left: 0rem;
+  }
 
-    .martin {
-        padding-right: 0rem;
-    }
+  .martin {
+    padding-right: 0rem;
+  }
 }
-
-
