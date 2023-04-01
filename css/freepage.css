@@ -21,7 +21,8 @@
     border-radius: 1rem;
     color: #e6e6e6;
     background: none;
-    border: 0.1rem solid rgb(41, 41, 41);
+    border: 0.1rem solid rgb(15, 15, 15);
+    background-color: #0c0c0c;
 }
 
 @media screen and (min-width: 320px) {
@@ -34,10 +35,9 @@
     }
     
     .card-course {
-        width: 10rem;
+        width: 11rem;
         padding: 1.8rem;
         margin: .8rem;
-        
     }
 }
 
@@ -47,20 +47,19 @@
     }
     
     .card-course {
+        width: 12rem;
         margin: 2rem;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .card-course {
-        width: 12rem;
         margin: 2.5rem;
-        transition: .2s;
+        transition: .3s;
     }
 
     .card-course:hover {
-        transform: translateY(-1.2rem);
-        box-shadow:  0 0 10px 3px rgb(117, 117, 117);
+        border: .1rem solid rgb(128, 128, 128);
     }
 }
 
@@ -75,7 +74,7 @@
 /*Daniela Seccion consultas */
 
 .help-section {
-    padding: 5.5rem;
+    padding: 3rem 1rem;
     background-color:orangered ;
 }
 
